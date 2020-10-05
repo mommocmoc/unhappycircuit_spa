@@ -20,6 +20,16 @@
     h2 {
         font-size: 50px;
     }
+     .large-container {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        @media (max-width:2560px) and (orientation:landscape){
+             div.child{
+        height: 100%;
+    }
+    }
 </style>
 <div class="child w3-container w3-black w3-center">
     <!-- 일반 모니터 -->

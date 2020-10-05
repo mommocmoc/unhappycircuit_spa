@@ -19,6 +19,7 @@
         src: soundSrc,
         autoplay: false,
         loop: true,
+        html5:true,
         onplayerror: function () {
             sound.once('unlock', function () {
                 sound.play();
